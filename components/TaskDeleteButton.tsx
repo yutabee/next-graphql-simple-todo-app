@@ -29,7 +29,7 @@ const TaskDeleteButton: React.FC<{ taskId: number }> = ({ taskId }) => {
   return (
     <Box>
       <IconButton
-        aria-label='tasl delete button'
+        aria-label='task delete button'
         icon={<SmallCloseIcon />}
         variant='ghost'
         color='gray.200'
